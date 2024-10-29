@@ -56,7 +56,10 @@ management:
     health:
       probes:
         enabled: true
-        
+  metrics:
+    export:
+      prometheus:
+        enabled: true
 
 springdoc:
   swagger-ui:
